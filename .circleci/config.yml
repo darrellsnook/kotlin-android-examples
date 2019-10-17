@@ -2,8 +2,8 @@ version: 2.1
 
 jobs:
   build:
-   working_directory: ~/WidgetExample
-   docker:
+    working_directory: ~/WidgetExample
+    docker:
       - image: 'circleci/openjdk:11-jdk'
     steps:
       - checkout
